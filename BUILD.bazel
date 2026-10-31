@@ -75,6 +75,7 @@ ddk_uapi_headers(
         "//vendor/xiaomi/sm8450-modules/qcom/opensource/dataipa:dataipa_uapi_headers",
         "//vendor/xiaomi/sm8450-modules/qcom/opensource/display-drivers:uapi_headers",
         "//vendor/xiaomi/sm8450-modules/qcom/opensource/securemsm-kernel:securemsm_uapi_headers",
+        "//vendor/xiaomi/sm8450-modules/xiaomi:xiaomi_uapi_headers",
     ],
     out = "ddk-uapi-headers.tar.gz",
     kernel_build = "//vendor/xiaomi/sm8450-kernel:waipio_perf",
