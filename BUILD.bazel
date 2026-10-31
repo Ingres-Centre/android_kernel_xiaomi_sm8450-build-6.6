@@ -14,6 +14,8 @@ load(
 kernel_module_group(
     name = "external_modules",
     srcs = [
+        "//vendor/xiaomi/sm8450-modules/xiaomi:waipio_perf_goodix_core",
+        "//vendor/xiaomi/sm8450-modules/xiaomi:waipio_perf_xiaomi_touch",
         "//vendor/xiaomi/sm8450-modules/qcom/opensource/audio-kernel:waipio_perf_modules",
         "//vendor/xiaomi/sm8450-modules/qcom/opensource/bt-kernel:waipio_perf_bt_fm_slim",
         "//vendor/xiaomi/sm8450-modules/qcom/opensource/bt-kernel:waipio_perf_btpower",
