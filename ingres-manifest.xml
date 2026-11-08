@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-only -->
+<manifest>
+  <include name="manifests/snippets/kernel-6.6.xml" />
+
+  <project name="Ingres-Centre/android_kernel_xiaomi_sm8450-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-kernel" remote="github" revision="lineage-24.0-6.6" />
+  <project name="Ingres-Centre/android_kernel_xiaomi_sm8450-devicetrees-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-devicetrees" remote="github" revision="lineage-24.0-6.6" />
+  <project name="cupid-development/android_kernel_xiaomi_sm8450-modules-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-modules" remote="github" revision="lineage-24.0-6.6" />
+  <project name="Ingres-Centre/android_kernel_xiaomi_sm8450-build-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-build" remote="github" revision="lineage-24.0-6.6" />
+
+  <project name="cupid-development/android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="github" revision="lineage-24.0-6.6" />
+  <project name="Ingres-Centre/android_device_xiaomi_ingres" path="device/xiaomi/ingres" remote="github" revision="lineage-24.0-6.6" />
+
+  <remove-project path="hardware/qcom-caf/sm8450-6.6/display/hal" />
+  <project name="cupid-development/android_hardware_qcom_display" path="hardware/qcom-caf/sm8450-6.6/display/hal" remote="github" revision="lineage-24.0-caf-sm8450-6.6" />
+</manifest>
